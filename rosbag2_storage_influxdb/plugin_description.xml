@@ -1,0 +1,9 @@
+<library path="rosbag2_storage_influxdb">
+  <class
+    name="influxdb"
+    type="rosbag2_storage_plugins::InfluxDBStorage"
+    base_class_type="rosbag2_storage::storage_interfaces::ReadWriteInterface"
+  >
+    <description>rosbag2 storage plugin for InfluxDB</description>
+  </class>
+</library>

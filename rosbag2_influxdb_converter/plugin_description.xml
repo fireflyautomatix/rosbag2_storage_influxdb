@@ -1,0 +1,9 @@
+<library path="rosbag2_influxdb_converter">
+    <class
+    name="influxdb_converter"
+    type="rosbag2_influxdb_converter::InfluxDBConverter"
+    base_class_type="rosbag2_cpp::converter_interfaces::SerializationFormatConverter"
+  >
+    <description>serialize ROS 2 messages to InfluxDB line protocol</description>
+  </class>
+</library>
